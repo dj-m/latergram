@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12D9D49B1CB82A9700AE1835 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D9D49A1CB82A9700AE1835 /* AppDelegate.swift */; };
+		12D9D49D1CB82A9700AE1835 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D9D49C1CB82A9700AE1835 /* ViewController.swift */; };
+		12D9D4A01CB82A9700AE1835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12D9D49E1CB82A9700AE1835 /* Main.storyboard */; };
+		12D9D4A21CB82A9700AE1835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12D9D4A11CB82A9700AE1835 /* Assets.xcassets */; };
+		12D9D4A51CB82A9700AE1835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12D9D4A31CB82A9700AE1835 /* LaunchScreen.storyboard */; };
+		12D9D4B01CB82A9700AE1835 /* LatergramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D9D4AF1CB82A9700AE1835 /* LatergramTests.swift */; };
+		12D9D4BB1CB82A9700AE1835 /* LatergramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D9D4BA1CB82A9700AE1835 /* LatergramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12D9D4AC1CB82A9700AE1835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12D9D48F1CB82A9700AE1835 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12D9D4961CB82A9700AE1835;
+			remoteInfo = Latergram;
+		};
+		12D9D4B71CB82A9700AE1835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12D9D48F1CB82A9700AE1835 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12D9D4961CB82A9700AE1835;
+			remoteInfo = Latergram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12D9D4971CB82A9700AE1835 /* Latergram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Latergram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D9D49A1CB82A9700AE1835 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12D9D49C1CB82A9700AE1835 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12D9D49F1CB82A9700AE1835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12D9D4A11CB82A9700AE1835 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12D9D4A41CB82A9700AE1835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12D9D4A61CB82A9700AE1835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12D9D4AB1CB82A9700AE1835 /* LatergramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatergramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D9D4AF1CB82A9700AE1835 /* LatergramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatergramTests.swift; sourceTree = "<group>"; };
+		12D9D4B11CB82A9700AE1835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12D9D4B61CB82A9700AE1835 /* LatergramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatergramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D9D4BA1CB82A9700AE1835 /* LatergramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatergramUITests.swift; sourceTree = "<group>"; };
+		12D9D4BC1CB82A9700AE1835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12D9D4941CB82A9700AE1835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D9D4A81CB82A9700AE1835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D9D4B31CB82A9700AE1835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12D9D48E1CB82A9700AE1835 = {
+			isa = PBXGroup;
+			children = (
+				12D9D4991CB82A9700AE1835 /* Latergram */,
+				12D9D4AE1CB82A9700AE1835 /* LatergramTests */,
+				12D9D4B91CB82A9700AE1835 /* LatergramUITests */,
+				12D9D4981CB82A9700AE1835 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12D9D4981CB82A9700AE1835 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12D9D4971CB82A9700AE1835 /* Latergram.app */,
+				12D9D4AB1CB82A9700AE1835 /* LatergramTests.xctest */,
+				12D9D4B61CB82A9700AE1835 /* LatergramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12D9D4991CB82A9700AE1835 /* Latergram */ = {
+			isa = PBXGroup;
+			children = (
+				12D9D49A1CB82A9700AE1835 /* AppDelegate.swift */,
+				12D9D49C1CB82A9700AE1835 /* ViewController.swift */,
+				12D9D49E1CB82A9700AE1835 /* Main.storyboard */,
+				12D9D4A11CB82A9700AE1835 /* Assets.xcassets */,
+				12D9D4A31CB82A9700AE1835 /* LaunchScreen.storyboard */,
+				12D9D4A61CB82A9700AE1835 /* Info.plist */,
+			);
+			path = Latergram;
+			sourceTree = "<group>";
+		};
+		12D9D4AE1CB82A9700AE1835 /* LatergramTests */ = {
+			isa = PBXGroup;
+			children = (
+				12D9D4AF1CB82A9700AE1835 /* LatergramTests.swift */,
+				12D9D4B11CB82A9700AE1835 /* Info.plist */,
+			);
+			path = LatergramTests;
+			sourceTree = "<group>";
+		};
+		12D9D4B91CB82A9700AE1835 /* LatergramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12D9D4BA1CB82A9700AE1835 /* LatergramUITests.swift */,
+				12D9D4BC1CB82A9700AE1835 /* Info.plist */,
+			);
+			path = LatergramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12D9D4961CB82A9700AE1835 /* Latergram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12D9D4BF1CB82A9700AE1835 /* Build configuration list for PBXNativeTarget "Latergram" */;
+			buildPhases = (
+				12D9D4931CB82A9700AE1835 /* Sources */,
+				12D9D4941CB82A9700AE1835 /* Frameworks */,
+				12D9D4951CB82A9700AE1835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Latergram;
+			productName = Latergram;
+			productReference = 12D9D4971CB82A9700AE1835 /* Latergram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12D9D4AA1CB82A9700AE1835 /* LatergramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12D9D4C21CB82A9700AE1835 /* Build configuration list for PBXNativeTarget "LatergramTests" */;
+			buildPhases = (
+				12D9D4A71CB82A9700AE1835 /* Sources */,
+				12D9D4A81CB82A9700AE1835 /* Frameworks */,
+				12D9D4A91CB82A9700AE1835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12D9D4AD1CB82A9700AE1835 /* PBXTargetDependency */,
+			);
+			name = LatergramTests;
+			productName = LatergramTests;
+			productReference = 12D9D4AB1CB82A9700AE1835 /* LatergramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12D9D4B51CB82A9700AE1835 /* LatergramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12D9D4C51CB82A9700AE1835 /* Build configuration list for PBXNativeTarget "LatergramUITests" */;
+			buildPhases = (
+				12D9D4B21CB82A9700AE1835 /* Sources */,
+				12D9D4B31CB82A9700AE1835 /* Frameworks */,
+				12D9D4B41CB82A9700AE1835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12D9D4B81CB82A9700AE1835 /* PBXTargetDependency */,
+			);
+			name = LatergramUITests;
+			productName = LatergramUITests;
+			productReference = 12D9D4B61CB82A9700AE1835 /* LatergramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12D9D48F1CB82A9700AE1835 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Domingo José Moronta";
+				TargetAttributes = {
+					12D9D4961CB82A9700AE1835 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = QERMZXWC24;
+					};
+					12D9D4AA1CB82A9700AE1835 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = QERMZXWC24;
+						TestTargetID = 12D9D4961CB82A9700AE1835;
+					};
+					12D9D4B51CB82A9700AE1835 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = QERMZXWC24;
+						TestTargetID = 12D9D4961CB82A9700AE1835;
+					};
+				};
+			};
+			buildConfigurationList = 12D9D4921CB82A9700AE1835 /* Build configuration list for PBXProject "Latergram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12D9D48E1CB82A9700AE1835;
+			productRefGroup = 12D9D4981CB82A9700AE1835 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12D9D4961CB82A9700AE1835 /* Latergram */,
+				12D9D4AA1CB82A9700AE1835 /* LatergramTests */,
+				12D9D4B51CB82A9700AE1835 /* LatergramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12D9D4951CB82A9700AE1835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D9D4A51CB82A9700AE1835 /* LaunchScreen.storyboard in Resources */,
+				12D9D4A21CB82A9700AE1835 /* Assets.xcassets in Resources */,
+				12D9D4A01CB82A9700AE1835 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D9D4A91CB82A9700AE1835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D9D4B41CB82A9700AE1835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12D9D4931CB82A9700AE1835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D9D49D1CB82A9700AE1835 /* ViewController.swift in Sources */,
+				12D9D49B1CB82A9700AE1835 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D9D4A71CB82A9700AE1835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D9D4B01CB82A9700AE1835 /* LatergramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D9D4B21CB82A9700AE1835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D9D4BB1CB82A9700AE1835 /* LatergramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12D9D4AD1CB82A9700AE1835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12D9D4961CB82A9700AE1835 /* Latergram */;
+			targetProxy = 12D9D4AC1CB82A9700AE1835 /* PBXContainerItemProxy */;
+		};
+		12D9D4B81CB82A9700AE1835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12D9D4961CB82A9700AE1835 /* Latergram */;
+			targetProxy = 12D9D4B71CB82A9700AE1835 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12D9D49E1CB82A9700AE1835 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12D9D49F1CB82A9700AE1835 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12D9D4A31CB82A9700AE1835 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12D9D4A41CB82A9700AE1835 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12D9D4BD1CB82A9700AE1835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12D9D4BE1CB82A9700AE1835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12D9D4C01CB82A9700AE1835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Latergram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.domingo.Latergram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12D9D4C11CB82A9700AE1835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Latergram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.domingo.Latergram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		12D9D4C31CB82A9700AE1835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LatergramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.domingo.LatergramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Latergram.app/Latergram";
+			};
+			name = Debug;
+		};
+		12D9D4C41CB82A9700AE1835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LatergramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.domingo.LatergramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Latergram.app/Latergram";
+			};
+			name = Release;
+		};
+		12D9D4C61CB82A9700AE1835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LatergramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.domingo.LatergramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Latergram;
+			};
+			name = Debug;
+		};
+		12D9D4C71CB82A9700AE1835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LatergramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.domingo.LatergramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Latergram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12D9D4921CB82A9700AE1835 /* Build configuration list for PBXProject "Latergram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12D9D4BD1CB82A9700AE1835 /* Debug */,
+				12D9D4BE1CB82A9700AE1835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12D9D4BF1CB82A9700AE1835 /* Build configuration list for PBXNativeTarget "Latergram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12D9D4C01CB82A9700AE1835 /* Debug */,
+				12D9D4C11CB82A9700AE1835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12D9D4C21CB82A9700AE1835 /* Build configuration list for PBXNativeTarget "LatergramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12D9D4C31CB82A9700AE1835 /* Debug */,
+				12D9D4C41CB82A9700AE1835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12D9D4C51CB82A9700AE1835 /* Build configuration list for PBXNativeTarget "LatergramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12D9D4C61CB82A9700AE1835 /* Debug */,
+				12D9D4C71CB82A9700AE1835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12D9D48F1CB82A9700AE1835 /* Project object */;
+}
