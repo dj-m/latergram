@@ -7,6 +7,12 @@
 //
 
 import UIKit
+import Firebase
+
+let firebase = Firebase(url: "https://latergramdemo.firebaseIO.com/")
+let usernameRef = firebase.childByAppendingPath("usernames")
+let profileRef = firebase.childByAppendingPath("profiles")
+let postRef = firebase.childByAppendingPath("posts")
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +21,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        let testUser = Profile.createUser("Emerald")
+        Profile.currentUser = testUser
+        
+        Post.feed = [Post]()
         return true
     }
 
